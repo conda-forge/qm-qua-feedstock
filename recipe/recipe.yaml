@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 1.3.1
+  version: "1.6.0"
 
 package:
   name: qm-qua
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/q/qm-qua/qm_qua-${{ version }}.tar.gz
-  sha256: 9b874087ef35a464904e7a59a8db9c87e1189c07853871191e39108fd5c60339
+  sha256: f215ddd7f569901352ee99a02f35a1e00af4213b9a8c6403d491678a23884e55
 
 build:
   noarch: python
